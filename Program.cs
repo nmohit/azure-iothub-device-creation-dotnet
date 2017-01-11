@@ -12,7 +12,7 @@ namespace azure_iothub_device_creation_dotnet
     {
         static RegistryManager registryManager;
         //static string connectionString = "{iot hub connection string}";
-        static string connectionString = "HostName=rviothub12052016.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=oP1b7+WTNJFgR+ar6fVWzBidp7/Kn8xCbcKPFFBMYKE=";
+        static string connectionString = "HostName={hub}.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey={SAS}";
 
         static void Main(string[] args)
         {
